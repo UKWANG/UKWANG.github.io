@@ -4,12 +4,22 @@
 
     <sitemap>
         <loc>http://UKWANG.github.io/post-sitemap.xml</loc>
-        <lastmod>2019-08-09T10:11:15.662Z</lastmod>
+        <lastmod>2019-08-10T03:32:30.825Z</lastmod>
     </sitemap>
 
     <sitemap>
         <loc>http://UKWANG.github.io/page-sitemap.xml</loc>
         <lastmod>2019-08-10T00:13:28.049Z</lastmod>
+    </sitemap>
+
+    <sitemap>
+        <loc>http://UKWANG.github.io/category-sitemap.xml</loc>
+        <lastmod>2019-08-10T03:32:30.825Z</lastmod>
+    </sitemap>
+
+    <sitemap>
+        <loc>http://UKWANG.github.io/tag-sitemap.xml</loc>
+        <lastmod>2019-08-10T03:32:30.825Z</lastmod>
     </sitemap>
 
 </sitemapindex>
