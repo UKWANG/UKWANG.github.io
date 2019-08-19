@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://UKWANG.github.io/"/>
-  <updated>2019-08-18T07:18:58.841Z</updated>
+  <updated>2019-08-19T11:58:42.336Z</updated>
   <id>http://UKWANG.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>markdown笔记</title>
+    <link href="http://UKWANG.github.io/2019/08/19/markdown%E7%AC%94%E8%AE%B0/"/>
+    <id>http://UKWANG.github.io/2019/08/19/markdown笔记/</id>
+    <published>2019-08-19T11:48:14.000Z</published>
+    <updated>2019-08-19T11:58:42.336Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="序语"><a href="#序语" class="headerlink" title="序语"></a>序语</h3><p>Markdown是一种轻量标记语言，由于对各种代码渲染的支持以及便于编辑受到广大程序yuan的追捧。如今很多可以发帖的社区都支持markdown。这种格式文件也是博客必备。具体的历史发展可参考<a href="https://wikipedia.hk.wjbk.site/wiki/Markdown" target="_blank" rel="noopener">维基百科</a>。</p><h4 id="基本语法"><a href="#基本语法" class="headerlink" title="基本语法"></a>基本语法</h4><h5 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h5><p>markdown里总共有六级标题</p><blockquote></blockquote><pre><code>#这是&lt;h1&gt;一级标题##这是&lt;h2&gt;二级标题###这是&lt;h3&gt;三级标题####这是&lt;h4&gt;四级标题#####这是&lt;h5&gt;五级标题######这是&lt;h6&gt;六级标题</code></pre><h5 id="强调"><a href="#强调" class="headerlink" title="强调"></a>强调</h5><p><em>斜体</em><br><strong>粗体</strong><br><strong><em>斜体+粗体</em></strong><br><del>删除线</del><br>==标记==</p><blockquote></blockquote><pre><code>*斜体***粗体*****斜体+粗体***~~删除线~~==标记==</code></pre><h5 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h5><p>markdown中可以通过两种方法来编写列表:一种是markdown自带语法，一种是用HTML语言</p><h6 id="有序列表"><a href="#有序列表" class="headerlink" title="有序列表"></a>有序列表</h6><ol><li>Item 1</li><li>Item 2</li><li>Item 3<ol> <li>w</li> <li>d</li> <li>s</li></ol></li></ol><h6 id="无序列表"><a href="#无序列表" class="headerlink" title="无序列表"></a>无序列表</h6><ul><li>Item 1</li><li>Item 2<ul><li>Item 2a</li><li>Item 2b<ul><li>w</li><li>s</li><li>d</li></ul></li></ul></li></ul><h6 id="任务列表"><a href="#任务列表" class="headerlink" title="任务列表"></a>任务列表</h6><ul><li><p>项目</p><ul><li>项目</li><li>项目</li></ul></li><li><input disabled type="checkbox"> <p>计划任务</p></li><li><input checked disabled type="checkbox"> <p>完成任务</p></li></ul><h5 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h5><p>！<a href="C:\Users\Administrator\Pictures\gauss.jpg" target="_blank" rel="noopener">示例</a></p><blockquote></blockquote><pre><code>![name](url)</code></pre><h5 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h5><blockquote></blockquote><pre><code>[name](url)</code></pre><h5 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&gt;</span><br></pre></td></tr></table></figure><h5 id="分割线"><a href="#分割线" class="headerlink" title="分割线"></a>分割线</h5><hr><hr><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">--- 连字符</span><br><span class="line">*** 星号</span><br><span class="line">``` </span><br><span class="line"></span><br><span class="line">##### 代码</span><br><span class="line">###### 1. 行内代码</span><br><span class="line">`&lt;dfj&gt;`</span><br><span class="line">两个反单引号</span><br></pre></td></tr></table></figure><p><code>代码</code></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">###### 2. 代码块</span><br><span class="line">上下各三个反单引号</span><br></pre></td></tr></table></figure><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">```</span><br><span class="line">###### 3. 语法高亮</span><br><span class="line">在第一个三反单引号后添加编程语言名字可实现代码高亮</span><br><span class="line">```python &#123;.linenumbers&#125;</span><br><span class="line">from urllib import request</span><br><span class="line">name = &quot;wangchongqiang&quot;</span><br><span class="line">print(name)</span><br></pre></td></tr></table></figure><h5 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h5><table><thead><tr><th>项目</th><th>Value</th></tr></thead><tbody><tr><td>电脑</td><td>$1600</td></tr><tr><td>手机</td><td>$12</td></tr><tr><td>导管</td><td>$1</td></tr></tbody></table><h5 id="数学公式"><a href="#数学公式" class="headerlink" title="数学公式"></a>数学公式</h5><p>$f(x) = sin(x)+1$<br>(f(x) = cos(x)+1)</p><h5 id="一些扩展"><a href="#一些扩展" class="headerlink" title="一些扩展"></a>一些扩展</h5><h6 id="上标"><a href="#上标" class="headerlink" title="上标"></a>上标</h6><p>f^1^</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">f^标号^</span><br></pre></td></tr></table></figure><h6 id="下标"><a href="#下标" class="headerlink" title="下标"></a>下标</h6><p>H<del>2</del> + O<del>2</del> = H<del>2</del>O</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">H~2~</span><br></pre></td></tr></table></figure><h6 id="脚注"><a href="#脚注" class="headerlink" title="脚注"></a>脚注</h6><p>内容 [^1]<br>[^1]:我为自由代言</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">内容 [^1]</span><br><span class="line">[^1]:我为自由代言</span><br></pre></td></tr></table></figure><h5 id="支持HTML"><a href="#支持HTML" class="headerlink" title="支持HTML"></a>支持HTML</h5><p><kbd>放块</kbd></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;kbd&gt;方块&lt;/kbd&gt;</span><br></pre></td></tr></table></figure><p>结语：markdown其实有好多扩展语法，比如支持latex渲染，不过都要相应的插件。一些平台会弄好来直接可以用。但是要用一个符合自己期望功能的markdown编辑器，我觉得还是自定义的好(好像Atom可以,不过还没自己实现过）。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;序语&quot;&gt;&lt;a href=&quot;#序语&quot; class=&quot;headerlink&quot; title=&quot;序语&quot;&gt;&lt;/a&gt;序语&lt;/h3&gt;&lt;p&gt;Markdown是一种轻量标记语言，由于对各种代码渲染的支持以及便于编辑受到广大程序yuan的追捧。如今很多可以发帖的社区都支持markdo
+      
+    
+    </summary>
+    
+      <category term="计算机" scheme="http://UKWANG.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
+    
+    
+      <category term="markdown, 笔记" scheme="http://UKWANG.github.io/tags/markdown-%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>我为何写博客</title>
